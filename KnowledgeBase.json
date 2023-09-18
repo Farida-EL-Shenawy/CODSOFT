@@ -1,0 +1,38 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there! I'm Farida's assistant bot. How can I brighten your day with some coding help?",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later! Remember, I'm here to make coding fun and easy whenever you need me.",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!, and I'm thrilled to help you with your coding adventures.",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing 'How to learn coding' on Google. But hey, if you need any specific tips or guidance, just ask! I'm here to assist you.",
+    "required_words": ["learn", "coding ?"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "long", "it", "takes", "to", "study", "python"],
+    "bot_response": "Honestly, it takes around two to six months to learn the fundamentals of Python .",
+    "required_words": ["long", "python ?", "study"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking. Farida and I are happy to be here, ready to assist you with your coding puzzles and bring a smile to your face. How can I make your day better?",
+    "required_words": ["how", "are", "you ?"]
+  }
+]
